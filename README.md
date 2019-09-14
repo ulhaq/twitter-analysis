@@ -1,8 +1,8 @@
-Twitter data from http://help.sentiment140.com/for-students/
+_Twitter data from http://help.sentiment140.com/for-students/_
 
-#### Total Twitter users in database 659775
+### Total Twitter users in database 659775
 
-#### Most active Twitter users:
+### Most active Twitter users:
 - lost_dog has tweeted total 549 tweets
 - webwoke has tweeted total 345 tweets
 - tweetpet has tweeted total 310 tweets
@@ -14,14 +14,21 @@ Twitter data from http://help.sentiment140.com/for-students/
 - Karen230683 has tweeted total 238 tweets
 - DarkPiano has tweeted total 236 tweets
 
-#### Most negative Twitter users:
+### Most negative Twitter users:
 - lost_dog has tweeted 549 negative tweets: @W_Hancock I am lost. Please help me find a good home. 
 - tweetpet has tweeted 310 negative tweets: @palfour89   hungry. Type 'feed' to feed me...
 - webwoke has tweeted 264 negative tweets: aughh... drop by 37  88. instablogs.com
 - mcraddictal has tweeted 210 negative tweets: @AhSatanseesMCR  you're right..maybe breaks.
 - wowlew has tweeted 210 negative tweets: isPlayer Has Died! Sorry 
 
-#### Twitter users who mention other Twitter users the most:
+### Most positive Twitter users:
+- what_bugs_u has tweeted 246 positive tweets: @CraigBarlettani why limit your story to 140 ch. Tell all what is annoying you at www.iamsoannoyed.com 
+- DarkPiano has tweeted 231 positive tweets: @reverielarke haha! Hope you had a great weekend! 
+- VioletsCRUK has tweeted 218 positive tweets: @Karen230683 from getting to know the real person behind the learning disabilities! The Duffy family have every reason to be proud!  xx
+- tsarnick has tweeted 212 positive tweets: .@Lollipopins don't forget about #NoUndiesSunday!!! 
+- keza34 has tweeted 211 positive tweets: @TraceyHewins night tweet you later or tomorrow for you.lol  x
+
+### Twitter users who mention other Twitter users the most:
 - lost_dog has mentioned other Twitter users 549 times
 - tweetpet has mentioned other Twitter users 310 times
 - VioletsCRUK has mentioned other Twitter users 251 times
@@ -33,8 +40,7 @@ Twitter data from http://help.sentiment140.com/for-students/
 - keza34 has mentioned other Twitter users 211 times
 - DarkPiano has mentioned other Twitter users 202 times
 
-
-#### Most mentioned Twitter users:
+### Most mentioned Twitter users:
 - @mileycyrus was mentioned 4500 times
 - @tommcfly was mentioned 3887 times
 - @ddlovato was mentioned 3467 times
