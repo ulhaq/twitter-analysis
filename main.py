@@ -3,8 +3,6 @@ import pandas as pd
 from pymongo import MongoClient
 from collections import Counter
 
-pol_dict = {0: "negative", 2: "neutral", 4: "positive"}
-
 client = MongoClient("localhost", 27017)
 db = client.twitter
 
@@ -77,10 +75,13 @@ if __name__ == "__main__":
     for user in most_active():
         print(user["_id"], "has tweeted total", user["occurrence"], "tweets")
 
-    pol_val = 0
-    print("\nMost " + pol_dict[pol_val] + " Twitter users:")
-    for user in most_polarity(pol_val, 5):
-        print(user["_id"], "has tweeted", user["count"], pol_dict[pol_val], "tweets:", user["tweet"])
+    print("\nMost negative Twitter users:")
+    for user in most_polarity(0, 5):
+        print(user["_id"], "has tweeted", user["count"], "negative tweets:", user["tweet"])
+
+    print("\nMost positive Twitter users:")
+    for user in most_polarity(4, 5):
+        print(user["_id"], "has tweeted", user["count"], "positive tweets:", user["tweet"])
 
     print("\nTwitter users who mention other Twitter users the most:")
     for user in most_mentioner():
